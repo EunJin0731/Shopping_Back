@@ -1,3 +1,13 @@
+use shopping;
+
+drop table if exists signup;
+drop table if exists basket;
+drop table if exists bestproduct;
+drop table if exists mdoffer;
+drop table if exists newproduct;
+drop table if exists product;
+drop table if exists review;
+
 create table signup(
   id bigint primary key auto_increment,
   account varchar(100) not null unique,
@@ -6,7 +16,8 @@ create table signup(
   phone varchar(20),
   mobile varchar(20) not null,
   zipcode varchar(20) not null,
-  address varchar(200) not null
+  address varchar(200) not null,
+  email varchar(100) not null
 ) default charset utf8mb4 engine=InnoDB;
 
 create table basket(

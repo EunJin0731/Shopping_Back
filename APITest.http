@@ -4,3 +4,18 @@
 # * 'gtrp' and 'gtr' create a GET request with or without query parameters;
 # * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
 # * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+POST http://localhost:8080/addUser
+Content-Type: application/json
+
+{
+  "account" : "eunjin1111",
+  "password": "1234",
+  "name": "eunjin",
+  "mobile" : "010-1234-5678",
+  "zipcode" : "41235",
+  "address" : "대구광역시 달성군",
+  "email" : "eunjin10@12312"
+}
+
+###
