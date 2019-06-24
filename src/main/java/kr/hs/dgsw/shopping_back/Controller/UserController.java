@@ -20,4 +20,8 @@ public class UserController {
         return this.userService.add(user);
     }
 
+    @PostMapping("/login")
+    public User login(@RequestBody User user){
+        return this.userService.Login(user);
+    }
 }

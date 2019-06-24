@@ -5,6 +5,8 @@ import kr.hs.dgsw.shopping_back.Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
+
 @Service
 public class UserServiceImpl implements UserService{
 
@@ -14,5 +16,16 @@ public class UserServiceImpl implements UserService{
     @Override
     public User add(User user) {
         return this.userRepository.save(user);
+    }
+
+    @Override
+    public User Login(User user) {
+        Optional<User> found = this.userRepository.findByAccount(user.getAccount());
+        if(found.isPresent()){
+            if(found.get().getPassword().equals(user.getPassword())){
+                return found.get();
+            }
+        }
+        return null;
     }
 }
