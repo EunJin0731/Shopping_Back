@@ -21,6 +21,7 @@ create table signup(
 ) default charset utf8mb4 engine=InnoDB;
 
 create table basket(
+  id bigint primary key auto_increment,
   product varchar(50) not null unique,
   price varchar(50) not null,
   count int(255) not null,
@@ -28,6 +29,7 @@ create table basket(
 ) default charset utf8mb4 engine=InnoDB;
 
 create table product(
+  id bigint primary key auto_increment,
   name varchar(50) not null unique,
   content varchar(200) not null,
   price varchar(50) not null,
@@ -38,6 +40,7 @@ create table product(
 ) default charset utf8mb4 engine=InnoDB;
 
 create table review(
+  id bigint primary key auto_increment,
   name varchar(50) not null,
   title varchar(50) not null,
   account varchar(100) not null,

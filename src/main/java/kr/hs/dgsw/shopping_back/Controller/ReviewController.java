@@ -1,14 +1,12 @@
 package kr.hs.dgsw.shopping_back.Controller;
 
-import kr.hs.dgsw.shopping_back.Service.ProductService;
+import kr.hs.dgsw.shopping_back.Service.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class ProductController {
+public class ReviewController {
 
     @Autowired
-    private ProductService productService;
-
-
+    private ReviewService reviewService;
 }

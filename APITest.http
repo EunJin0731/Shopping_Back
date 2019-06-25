@@ -19,3 +19,37 @@ Content-Type: application/json
 }
 
 ###
+
+POST http://localhost:8080/addBasket
+Content-Type: application/json
+
+{
+  "product" : "티셔츠",
+  "price": "10000",
+  "count": "5",
+  "total" : "50000"
+}
+
+###
+
+GET http://localhost:8080/basket
+Accept: application/json
+
+###
+
+DELETE http://localhost:8080/deleteBasket/1
+Accept: application/json
+
+###
+
+PUT http://localhost:8080/updateBasket/1
+Content-Type: application/json
+
+{
+  "product" : "티셔츠",
+  "price": "10000",
+  "count": "6",
+  "total" : "60000"
+}
+
+###
