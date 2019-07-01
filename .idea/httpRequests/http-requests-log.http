@@ -1,0 +1,397 @@
+GET http://localhost:8080/subcategory
+Accept: application/json
+
+<> 2019-07-01T094717.500.json
+
+###
+
+GET http://localhost:8080/category
+Accept: application/json
+
+<> 2019-07-01T094614.200.json
+
+###
+
+GET http://localhost:8080/category
+Accept: application/json
+
+<> 2019-07-01T094545.500.json
+
+###
+
+GET http://localhost:8080/category
+Accept: application/json
+
+<> 2019-07-01T094535.500.json
+
+###
+
+GET http://localhost:8080/category
+Accept: application/json
+
+<> 2019-07-01T094445.500.json
+
+###
+
+GET http://localhost:8080/category
+Accept: application/json
+
+<> 2019-07-01T092717.500.json
+
+###
+
+GET http://localhost:8080/subcategory
+Accept: application/json
+
+<> 2019-07-01T092053.500.json
+
+###
+
+GET http://localhost:8080/subcategory/1
+Accept: application/json
+
+<> 2019-07-01T092048.500.json
+
+###
+
+GET http://localhost:8080/subcategory
+Accept: application/json
+
+<> 2019-07-01T090707.500.json
+
+###
+
+GET http://localhost:8080/subcategory/1
+Accept: application/json
+
+<> 2019-07-01T090703.500.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "account" : "eunjin1111",
+  "password": "1234asdsad"
+}
+
+###
+
+POST http://localhost:8080/addUser
+Content-Type: application/json
+
+{
+  "account" : "eunjin1111",
+  "password": "1234asds",
+  "name": "eunjin",
+  "mobile" : "010-1234-5678",
+  "zipcode" : "41235",
+  "address" : "대구광역시 달성군",
+  "email" : "eunjin10@12312"
+}
+
+<> 2019-07-01T090613.500.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "account" : "eunjin1111",
+  "password": "1234asdsad"
+}
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "account" : "eunjin1111",
+  "password": "1234asdsad"
+}
+
+###
+
+POST http://localhost:8080/addUser
+Content-Type: application/json
+
+{
+  "account" : "eunjin1111",
+  "password": "1234asds",
+  "name": "eunjin",
+  "mobile" : "010-1234-5678",
+  "zipcode" : "41235",
+  "address" : "대구광역시 달성군",
+  "email" : "eunjin10@12312"
+}
+
+<> 2019-07-01T090606.200.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "account" : "eunjin1111",
+  "password": "1234asdsad"
+}
+
+###
+
+GET http://localhost:8080/subcategory/1
+Accept: application/json
+
+<> 2019-07-01T090518.500.json
+
+###
+
+GET http://localhost:8080/subcategory
+Accept: application/json
+
+<> 2019-07-01T090515.500.json
+
+###
+
+GET http://localhost:8080/subcategory
+Accept: application/json
+
+<> 2019-07-01T090513.500.json
+
+###
+
+GET http://localhost:8080/subcategory
+Accept: application/json
+
+<> 2019-07-01T090357.500.json
+
+###
+
+GET http://localhost:8080/subcategory/1
+Accept: application/json
+
+<> 2019-07-01T090353.500.json
+
+###
+
+GET http://localhost:8080/subcategory/1
+Accept: application/json
+
+<> 2019-07-01T085224.500.json
+
+###
+
+GET http://localhost:8080/subcategory
+Accept: application/json
+
+<> 2019-07-01T085220.500.json
+
+###
+
+GET http://localhost:8080/category
+Accept: application/json
+
+<> 2019-07-01T084655.200.json
+
+###
+
+GET http://localhost:8080/product
+Accept: application/json
+
+<> 2019-07-01T084338.500.json
+
+###
+
+GET http://localhost:8080/category
+Accept: application/json
+
+<> 2019-07-01T084330.200.json
+
+###
+
+GET http://localhost:8080/subcategory
+Accept: application/json
+
+<> 2019-07-01T084317.500.json
+
+###
+
+GET http://localhost:8080/subcategory
+Accept: application/json
+
+<> 2019-07-01T084314.500.json
+
+###
+
+GET http://localhost:8080/subcategory/1
+Accept: application/json
+
+<> 2019-07-01T084257.500.json
+
+###
+
+GET http://localhost:8080/subcategory/1
+Accept: application/json
+
+###
+
+GET http://localhost:8080/subcategory/1
+Accept: application/json
+
+<> 2019-06-30T102919.500.json
+
+###
+
+GET http://localhost:8080/subcategory
+Accept: application/json
+
+<> 2019-06-30T102827.500.json
+
+###
+
+GET http://localhost:8080/subcategory
+Accept: application/json
+
+<> 2019-06-30T102700.500.json
+
+###
+
+GET http://localhost:8080/category
+Accept: application/json
+
+<> 2019-06-30T102651.200.json
+
+###
+
+GET http://localhost:8080/subcategory
+Accept: application/json
+
+<> 2019-06-30T102603.404.json
+
+###
+
+GET http://localhost:8080/subcategory
+Accept: application/json
+
+<> 2019-06-30T102355.404.json
+
+###
+
+GET http://localhost:8080/subcategory/1
+Accept: application/json
+
+<> 2019-06-30T102343.500.json
+
+###
+
+GET http://localhost:8080/subcategory/1
+Accept: application/json
+
+<> 2019-06-30T102318.500.json
+
+###
+
+GET http://localhost:8080/product
+Accept: application/json
+
+<> 2019-06-28T102337.200.json
+
+###
+
+GET http://localhost:8080/basket
+Accept: application/json
+
+<> 2019-06-28T102335.200.json
+
+###
+
+POST http://localhost:8080/addProduct
+Content-Type: application/json
+
+{
+  "name" : "반팔",
+  "content": "시원ㅇㄻㄴㅇㄻㄴㅇㄹ",
+  "price": "12000",
+  "category" : "남성 반팔"
+}
+
+<> 2019-06-28T102331.200.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "account" : "eunjin1111",
+  "password": "1234asdsad"
+}
+
+###
+
+POST http://localhost:8080/addUser
+Content-Type: application/json
+
+{
+  "account" : "eunjin1111",
+  "password": "1234asds",
+  "name": "eunjin",
+  "mobile" : "010-1234-5678",
+  "zipcode" : "41235",
+  "address" : "대구광역시 달성군",
+  "email" : "eunjin10@12312"
+}
+
+<> 2019-06-27T104949.500.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "account" : "eunjin1111",
+  "password": "1234"
+}
+
+<> 2019-06-27T104048.200.json
+
+###
+
+POST http://localhost:8080/addUser
+Content-Type: application/json
+
+{
+  "account" : "eunjin1111",
+  "password": "1234",
+  "name": "eunjin",
+  "mobile" : "010-1234-5678",
+  "zipcode" : "41235",
+  "address" : "대구광역시 달성군",
+  "email" : "eunjin10@12312"
+}
+
+<> 2019-06-27T104046.200.json
+
+###
+
+POST http://localhost:8080/addUser
+Content-Type: application/json
+
+{
+  "account" : "eunjin1111",
+  "password": "1234",
+  "name": "eunjin",
+  "mobile" : "010-1234-5678",
+  "zipcode" : "41235",
+  "address" : "대구광역시 달성군",
+  "email" : "eunjin10@12312"
+}
+
+<> 2019-06-27T103649.200.json
+
+###
+

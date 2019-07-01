@@ -20,7 +20,7 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public User Login(User user) {
-        Optional<User> found = this.userRepository.findByAccount(user.getAccount());
+        Optional<User> found = this.userRepository.findByAccountAndPassword(user.getAccount(), user.getPassword());
         if(found.isPresent()){
             if(found.get().getPassword().equals(user.getPassword())){
                 return found.get();

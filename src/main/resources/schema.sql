@@ -1,12 +1,14 @@
 use shopping;
 
 drop table if exists signup;
+drop table if exists review;
 drop table if exists basket;
 drop table if exists bestproduct;
 drop table if exists mdoffer;
 drop table if exists newproduct;
 drop table if exists product;
-drop table if exists review;
+drop table if exists category;
+drop table if exists subcategory;
 
 create table signup(
   id bigint primary key auto_increment,
@@ -30,13 +32,14 @@ create table basket(
 
 create table product(
   id bigint primary key auto_increment,
+  categoryId bigint,
+  subId bigint,
   name varchar(50) not null unique,
   content varchar(200) not null,
   price varchar(50) not null,
-  category varchar(50) not null,
-  filename varchar(100) not null,
-  file mediumblob not null,
-  detail varchar(1000) not null
+  filename varchar(100),
+  filepath varchar (300),
+  detail varchar(1000)
 ) default charset utf8mb4 engine=InnoDB;
 
 create table review(
@@ -70,4 +73,15 @@ create table mdoffer(
   price varchar(50) not null,
   filename varchar(100) not null,
   file mediumblob not null
+) default charset utf8mb4 engine=InnoDB;
+
+create table category(
+  id bigint primary key auto_increment,
+  name varchar(30) not null
+) default charset utf8mb4 engine=InnoDB;
+
+create table subcategory(
+  id bigint primary key auto_increment,
+  categoryId bigint,
+  name varchar(30) not null
 ) default charset utf8mb4 engine=InnoDB;

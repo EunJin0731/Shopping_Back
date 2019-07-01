@@ -10,12 +10,34 @@ Content-Type: application/json
 
 {
   "account" : "eunjin1111",
-  "password": "1234",
+  "password": "1234asds",
   "name": "eunjin",
   "mobile" : "010-1234-5678",
   "zipcode" : "41235",
   "address" : "대구광역시 달성군",
   "email" : "eunjin10@12312"
+}
+
+###
+
+POST http://localhost:8080/addProduct
+Content-Type: application/json
+
+{
+  "name" : "반팔",
+  "content": "시원ㅇㄻㄴㅇㄻㄴㅇㄹ",
+  "price": "12000",
+  "category" : "남성 반팔"
+}
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "account" : "eunjin1111",
+  "password": "1234asdsad"
 }
 
 ###
@@ -33,6 +55,21 @@ Content-Type: application/json
 ###
 
 GET http://localhost:8080/basket
+Accept: application/json
+
+###
+
+GET http://localhost:8080/category
+Accept: application/json
+
+###
+
+GET http://localhost:8080/subcategory
+Accept: application/json
+
+###
+
+GET http://localhost:8080/product
 Accept: application/json
 
 ###
